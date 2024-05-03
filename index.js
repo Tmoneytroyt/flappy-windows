@@ -71,7 +71,7 @@ const upFlappy = () => {
 };
 
 const moveFlappy = () => {
-    flappyWindow.moveBy(0, 3);
+    flappyWindow.moveBy(0, 20);
     checkForCollision();
     calculateScore();
 }
