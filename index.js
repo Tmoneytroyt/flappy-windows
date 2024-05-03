@@ -10,7 +10,7 @@ var secondObstacleWindow;
 var flappyWindow;
 let flappyInitialPosition;
 let base;
-let currentScore = 0;
+let currentScore = 99;
 
 window.onload = () => {
     let isMobile = checkDevice();
